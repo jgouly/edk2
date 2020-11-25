@@ -3,6 +3,7 @@
 #
 # Copyright (c) Microsoft Corporation
 # Copyright (c) 2020, Intel Corporation. All rights reserved.<BR>
+# Copyright (c) 2020, Arm Limited. All rights reserved.
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 ##
 {
@@ -28,6 +29,7 @@
     },
     "DependencyCheck": {
         "AcceptableDependencies": [
+            "ArmPkg/ArmPkg.dec",
             "MdePkg/MdePkg.dec",
             "MdeModulePkg/MdeModulePkg.dec",
             "ShellPkg/ShellPkg.dec",

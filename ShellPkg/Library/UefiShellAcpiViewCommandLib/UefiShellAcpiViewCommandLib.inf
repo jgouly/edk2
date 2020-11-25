@@ -60,6 +60,9 @@
   MdePkg/MdePkg.dec
   ShellPkg/ShellPkg.dec
 
+[Packages.ARM, Packages.AARCH64]
+  ArmPkg/ArmPkg.dec
+
 [LibraryClasses]
   BaseLib
   BaseMemoryLib
@@ -75,6 +78,8 @@
   UefiLib
   UefiRuntimeServicesTableLib
 
+[LibraryClasses.ARM, LibraryClasses.AARCH64]
+  ArmLib
 
 [FixedPcd]
   gEfiShellPkgTokenSpaceGuid.PcdShellProfileMask ## CONSUMES
